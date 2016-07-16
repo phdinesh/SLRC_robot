@@ -1,0 +1,2 @@
+avrdude.exe -pm2560 -carduino -P\\.\COM49 -b115200 -V -D -Uflash:w:Template.hex:a
+avrdude.exe -pm2560 -cstk500v2 -P\\.\COM49 -b115200 -V -D -Uflash:w:Template.hex:a
